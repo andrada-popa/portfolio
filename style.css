@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins,sans-serif;
+    box-sizing: border-box; 
+}
+a {
+    text-decoration: none;
+    color:black;
+} 
+
+/*styling the navigation*/
+
+.navigation {
+    width: 100%;
+    min-height: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+    overflow:hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+.logo{
+
+    width: 50px;
+    margin: 30px 0;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.navbar i {
+    width: 25px;
+    cursor: pointer;
+    font-size: 2rem;
+    
+}
+.navbar ul {
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 700;
+}
+.navbar ul li a:hover{
+    color: #9e2bf0;
+}
+
+/*styling the about me section*/
+
+.about{
+    background-color: white;
+    padding: 15rem 0;
+}
+.hero-main{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    margin-left: 4rem;
+    
+}
+.hero-text h1 {
+    font-size: 4rem;
+    line-height:1.2;
+    display: block;
+    margin-top: 2rem;
+}
+.hero-text img {
+    max-width:5rem;
+    height:auto;
+    position:relative;
+    bottom:  5rem;
+    left: 22rem;
+    overflow:clip;
+
+}
+.hero-text p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+.hero-image{
+    width:35rem;
+    height: 35rem;
+    margin-right: 4rem;    
+}
+span{
+    display: flex;
+    gap: 1.3rem;
+    margin: 2.5rem 0;
+}
+span i {
+    font-size: 2.5rem;
+}
+.skills{
+    align-items: center;
+    display: flex;
+    font-size: 1.7rem;
+    width: 100%;
+    justify-content: center;
+    position:absolute;
+    right:23rem;
+    padding-top: 2rem;
+}
+.skills p{
+    border-right: 2px solid black;
+    font-weight: 400;
+    margin-right: 7rem;
+    padding-right: 2rem;
+
+}
+.logos ul{
+    display: flex;
+    flex-wrap:wrap;
+    gap:2.5rem;
+    list-style: none;
+}
+.logos ul li {
+    font-size: 3rem;
+}
+
+/*styling the projects section*/
+
+.projects{
+    background-color: #f9f9f9;
+    padding: 15rem 0;
+}
+.container {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+}
+.project-content p {
+    color: #9e2bf0;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.project-content h3 {
+    font-size: 2.5rem;
+    margin-bottom: 6rem;
+}
+.project-grid{
+    grid-gap: 5rem;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    height: auto;
+    width: 100%;
+}
+
+/*Individual project*/
+.project-left{
+    background-color: #fff;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    height: 40rem;
+    padding: 2rem;
+}
+.project-left-image{
+    background-color: hsla(0,0%,46%,.2);
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    height: auto;
+    overflow: hidden;
+    width: 53rem;
+}
+.project-left-text{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    width: 30rem;
+}
+.project-left-text h3 {
+    color: #2d2e32;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    position: relative;
+    text-transform: uppercase;
+}
+.project-left-text p {
+    color: #767676;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+}
+.stack {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.stack p {
+    color: #767676;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 1rem 1.3rem;
+}
